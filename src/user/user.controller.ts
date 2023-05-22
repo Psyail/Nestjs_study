@@ -20,7 +20,7 @@ export class UserController {
        
         return result; //데이터의 값을 반환
         
-
+//
     }
 
 }
