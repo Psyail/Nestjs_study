@@ -1,6 +1,6 @@
-import { Column } from "typeorm";
+import { Column, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
 
-export class DefaultEntity{
-    @Column()
-    id:number;
+export class DefaultEntity {
+  @PrimaryGeneratedColumn()
+  id: number;
 }

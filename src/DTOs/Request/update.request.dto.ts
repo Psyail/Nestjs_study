@@ -1,8 +1,6 @@
-interface UpdateRequest{
-    password: string;
-    email: string;
-}
-export class UpdateRequestDto implements UpdateRequest{
-    password: string;
-    email: string;
-}
+export class UpdateRequestDto {
+    username: string;
+    password: string | void;
+    email: string | void;
+    birth: string | void;
+  }

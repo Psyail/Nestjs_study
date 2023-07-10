@@ -9,7 +9,7 @@ import { UserEntity } from './Entitis/user.entity';
         UserModule,
         TypeOrmModule.forRoot({
             type: 'mysql',
-            host:'-h nest1.mariadb.database.azure.com',
+            host:'nest1.mariadb.database.azure.com',
             port: 3306,
             username: 'nestroot@nest1',
             password: 'Nest2023@',

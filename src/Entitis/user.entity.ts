@@ -1,10 +1,12 @@
-import { Column } from "typeorm";
+import { Column, Entity } from "typeorm";
+import { DefaultEntity } from "./default.entitu";
 
-export class UserEntity{
+@Entity()
+export class UserEntity extends DefaultEntity{
     @Column()
     username:string;
     @Column()
-    passward:string;
+    password:string;
     @Column()
     email:string;
     @Column()
